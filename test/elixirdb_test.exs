@@ -1,8 +1,4 @@
-defmodule ElixirdbTest do
+defmodule ElixirDBTest do
   use ExUnit.Case
-  doctest Elixirdb
-
-  test "greets the world" do
-    assert Elixirdb.hello() == :world
-  end
+  doctest ElixirDB
 end
